@@ -5,8 +5,6 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    font-family: 'Space Mono', monospace;
     size: 20px;
     background-image: url(../img/fondo.jpg);
     background-size: cover;
@@ -42,8 +40,6 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
-
-
 }
 
 .menu ul {
@@ -60,6 +56,18 @@ body {
     text-decoration: none;
     color: white;
     font-size: 20px;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s;
+
+}
+
+.menu ul li a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    transition: 0.5s;
+
 }
 
 .banner {
@@ -104,6 +112,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    background-color: transparent;
+    color: white;
 }
 
 .card img {
@@ -111,6 +121,26 @@ body {
     height: 200px;
     object-fit: cover;
 
+}
+.card button{
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid white;
+    transition: 0.5s;
+
+}
+
+.card button:hover {
+    background-color:#102E60;
+    color: white;
+    transition: 0.5s;
 }
 
 .card-body {
@@ -157,7 +187,6 @@ h3 {
 
 
 }
-
 
 .footer img {
     width: 30px;
