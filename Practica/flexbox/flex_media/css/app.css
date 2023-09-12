@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80vh;
+    background-color: aliceblue;
+    margin: 0 auto;
+    margin-top: 150px;
+
+}
+
+.container__flex{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.flex__item{
+    width: 100%;
+}
+
+.flex__item-1{
+    width: 100%;
+    background-color: red;
+}
