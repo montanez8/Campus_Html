@@ -1,0 +1,33 @@
+/* Selector de tipo (Element Selector) */
+p {
+    color: blue;
+}
+
+/* Selector de clase (Class Selector) */
+.destacado {
+    font-weight: bold;
+}
+
+/* Selector de ID (ID Selector) */
+#encabezado {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Selector descendente */
+ul li {
+    list-style: circle;
+}
+
+/* Selector de atributo */
+a[target="_blank"] {
+    color: red;
+}
+
+/* Selector de pseudo-clase */
+a:hover {
+    text-decoration: wavy;
+}
+
+

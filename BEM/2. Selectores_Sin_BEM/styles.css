@@ -1,0 +1,35 @@
+/* Estilos para el encabezado */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para el título */
+.titulo {
+    font-size: 24px;
+}
+
+/* Estilos para el menú */
+.menu {
+    margin-top: 10px;
+}
+
+/* Estilos para la lista del menú */
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para los elementos de la lista */
+.item {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Estilos para los enlaces del menú */
+.enlace {
+    color: white;
+    text-decoration: none;
+}

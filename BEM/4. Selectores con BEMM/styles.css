@@ -1,0 +1,42 @@
+/* Bloque */
+.encabezado {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Elemento del bloque */
+.encabezado__titulo {
+    font-size: 24px;
+}
+
+/* Elemento del bloque */
+.encabezado__menu {
+    margin-top: 10px;
+}
+
+/* Elemento del bloque */
+.encabezado__lista {
+    list-style: none;
+    padding: 0;
+}
+
+/* Elemento del bloque */
+.encabezado__item {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Elemento del bloque */
+.encabezado__enlace {
+    color: white;
+    text-decoration: none;
+}
+
+/* Modificador del elemento de bloque */
+.encabezado__item--destacado {
+    background-color: yellow;
+    font-weight: bold;
+    color: black;
+}
